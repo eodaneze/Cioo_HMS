@@ -1,0 +1,47 @@
+.patient-one img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.view-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.all-patient{
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #ccc;
+    margin-bottom: 30px;
+}
+.patient-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+   margin-bottom: 20px;
+}
+.patient-name{
+    margin: 0px 30px;
+}
+.all-wrapper{
+    background-color: #f0f0f0;
+}
+.all-main{
+    display: grid;
+    grid-template-columns: .5fr 2fr;
+    gap: 3rem;
+}
+.profile-pic-section{
+    height: fit-content;
+}
+
+.alert{
+    opacity: 1;
+}
+body{
+    overflow-x: hidden;
+}
+.all-tables{
+    overflow-x: scroll;
+}
